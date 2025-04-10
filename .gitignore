@@ -1,6 +1,54 @@
-.ipynb_checkpoints/
+# Environment variables
+.env
+.env.*
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+lc-academy-env/
+
+# IDE
 .idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Local development
+.DS_Store
+Thumbs.db
+
+# LangGraph specific
+.langgraph_api/
+langgraph-academy/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -79,9 +127,6 @@ docs/_build/
 .pybuilder/
 target/
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
 # IPython
 profile_default/
 ipython_config.py
@@ -133,7 +178,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-lc-academy-env/
 
 # Spyder project settings
 .spyderproject
